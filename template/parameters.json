@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "9ad9f9da-9f04-47b4-aea8-77391d2876e0"
+        },
+        "name": {
+            "value": "kwebapp1"
+        },
+        "location": {
+            "value": "UK South"
+        },
+        "hostingPlanName": {
+            "value": "ASP-Kenny1-b0da"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Kenny1"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v5.0"
+        }
+    }
+}
